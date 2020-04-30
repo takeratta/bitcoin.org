@@ -15,7 +15,7 @@ ruby '2.4.1'
 group :development do
   gem 'ffi-icu'
   gem 'jekyll', '~>3.0'
-  gem 'json', '>= 1.9'
+  gem 'json', '>= 2.3.0'
   gem 'less', '2.4.0'
   gem 'kramdown'
   gem 'RedCloth'

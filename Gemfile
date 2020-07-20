@@ -14,10 +14,10 @@ ruby '2.4.1'
 ## your dependencies, then nothing extra needs to be done
 group :development do
   gem 'ffi-icu'
-  gem 'jekyll', '~>3.0'
+  gem 'jekyll', '~> 4.0', '>= 4.0.0'
   gem 'json', '>= 1.9'
   gem 'less', '2.4.0'
-  gem 'kramdown'
+  gem 'kramdown', '>= 2.3.0'
   gem 'RedCloth'
   gem 'therubyracer' # required by less
   gem 'jshintrb', '~>0.3.0'

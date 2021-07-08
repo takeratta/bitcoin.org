@@ -22,7 +22,7 @@ group :development do
   gem 'therubyracer' # required by less
   gem 'jshintrb', '~>0.3.0'
   gem 'safe_yaml'
-  gem 'json-schema'
+  gem 'json-schema', '>= 2.8.0'
 end
 
 ## Not used on build server. Only used by developers and Travis CI, so
